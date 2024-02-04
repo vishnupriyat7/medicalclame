@@ -124,7 +124,7 @@ $user_id = $user['id'];
                             }
                         }
                         ?>
-                        <div id="add_new_customer_model">
+                        <!-- <div id="add_new_customer_model">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header" style="background-color: #ff5252; color: white">
@@ -138,7 +138,7 @@ $user_id = $user['id'];
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="card-body p-4">
                             <div class="tab-content">
                                 <div class="tab-pane active" id="personalDetails" role="tabpanel">
@@ -150,13 +150,13 @@ $user_id = $user['id'];
                                     <form action="" method="post" enctype="multipart/form-data">
                                         <div class="row bg-grey">
 
-                                            <div class="row col col-md-12">
+                                            <!-- <div class="row col col-md-12">
                                                 <div class="col col-md-2 form-group">
                                                     <button class="btn btn-primary form-control" onclick="document.getElementById('add_new_customer_model').style.display = 'block';">Add New Medicine</button>
                                                 </div>
                                                 <div class="col col-md-1 form-group"></div>
 
-                                            </div>
+                                            </div> -->
 
 
                                             <div class="col col-md-12">
@@ -166,24 +166,34 @@ $user_id = $user['id'];
                                             <!-- add medicines -->
                                             <div class="row col col-md-12">
                                                 <div class="row col col-md-12 font-weight-bold">
-                                                    <div class="col col-md-2">Invoice Number</div>
+                                                    <div class="col col-md-1">Sl No</div>
+                                                    <div class="col col-md-1">Invoice No</div>
+                                                    <div class="col col-md-1">Invoice Date</div>
                                                     <div class="col col-md-2">Medicine Name</div>
-                                                    <div class="col col-md-2">Chemical/Pharmacological Name</div>
+                                                    <div class="col col-md-3">Chemical/Pharmacological Name</div>
                                                     <div class="col col-md-2">Price Description</div>
-                                                    <div class="col col-md-2">Total Amount</div>
-                                                    <div class="col col-md-2">Action</div>
+                                                    <div class="col col-md-1">Total Amount</div>
+                                                    <div class="col col-md-1">Remarks</div>
                                                 </div>
                                             </div>
                                             <div class="col col-md-12">
                                                 <hr class="col-md-12" style="padding: 0px; border-top: 2px solid  #02b6ff;">
                                             </div>
-
+                                            <!-- <div class="row col col-md-12">
+                                                <div class="row col col-md-12 font-weight-bold">
+                                                    <div class="col col-md-1">Sl No</div>
+                                                    <div class="col col-md-1">Invoice No</div>
+                                                    <div class="col col-md-1">Invoice Date</div>
+                                                    <div class="col col-md-2">Medicine Name</div>
+                                                    <div class="col col-md-3">Chemical/Pharmacological Name</div>
+                                                    <div class="col col-md-2">Price Description</div>
+                                                    <div class="col col-md-1">Total Amount</div>
+                                                    <div class="col col-md-1">Remarks</div>
+                                                </div>
+                                            </div> -->
                                             <div class="row col col-md-12 " id="invoice_medicine_list_div">
-                                                <script>
-                                                    addRow();
-                                                    getInvoiceNumber();
-                                                </script>
-                                            </div>
+            <script> addRow(); getInvoiceNumber(); </script>
+          </div>
                                             <!-- end medicines -->
                                             <div class="row col col-md-12">
                                                 <div class="col col-md-6 form-group"></div>
