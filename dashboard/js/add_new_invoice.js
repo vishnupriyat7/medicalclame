@@ -13,6 +13,7 @@ class MedicineInfo {
 }
 
 function addRow() {
+  alert("xljdlk");
   if(typeof addRow.counter == 'undefined')
     addRow.counter = 1;
   var previous = document.getElementById("invoice_medicine_list_div").innerHTML;

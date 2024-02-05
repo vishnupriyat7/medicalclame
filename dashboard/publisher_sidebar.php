@@ -6,11 +6,7 @@ include "../z_db.php";
     <!-- LOGO -->
     <div class="navbar-brand-box">
         <!-- Dark Logo-->
-        <!-- <?php
-                $rr = mysqli_query($con, "SELECT ufile FROM logo");
-                $r = mysqli_fetch_row($rr);
-                $ufile = $r[0];
-                ?>
+        <!--  -->
 
         <a href="index.html" class="logo logo-dark">
             <span class="logo-sm">
@@ -19,7 +15,7 @@ include "../z_db.php";
             <span class="logo-lg">
                 <img src="uploads/logo/<?php print $ufile ?>" alt="" height="90">
             </span>
-        </a> -->
+        </a> 
         <!-- Light Logo-->
         <!-- <a href="index.html" class="logo logo-light">
             <span class="logo-sm">
@@ -70,7 +66,7 @@ include "../z_db.php";
                     </a>
                 </li> -->
                 <li class="nav-item">
-                    <a class="nav-link menu-link" role="button" aria-expanded="true" aria-controls="sidebarLanding" href="publisher_coupon.php">
+                    <a class="nav-link menu-link" role="button" aria-expanded="true" aria-controls="sidebarLanding" href="add_new_bill.php">
                         <i class="ri-checkbox-multiple-line"></i> <span data-key="t-landing">Add New Bill</span>
                     </a>
                 </li>

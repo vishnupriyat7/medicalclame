@@ -65,6 +65,7 @@ if (isset($_SESSION['SESSION_EMAIL'])) {
 
     <!-- Layout config Js -->
     <script src="assets/js/layout.js"></script>
+    <!-- <script src="js/add_new_invoice.js"></script> -->
     <!-- Bootstrap Css -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- Icons Css -->

@@ -1,5 +1,5 @@
 <?php
-$con = new mysqli("172.20.19.22", "root", "root", "klibf2");
+$con = new mysqli("172.20.19.21", "root", "Root@123", "medical-claim");
 if ($con->connect_errno) {
     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
